@@ -1,0 +1,76 @@
+/* navigation section */
+.navbar {
+    background-color: transparent;
+}
+
+
+/* All Products */
+.All-products .btn-group {
+    float: inline-end;
+}
+
+
+.All-products .col img {
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+.All-products .col:hover img{
+    transform: scale(1.2);
+}
+
+
+.All-products .featured-group  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.All-products .featured-group .card {
+    margin-top: 15px;
+    height: fit-content;
+    width: 280px;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+
+.All-products .featured-group .card:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.All-products .featured-group .card img {
+    height: 290px;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width:450px) {
+    .All-products .featured-group .card {
+        width: 290px;
+        height: fit-content;
+    }
+
+    .All-products .featured-group  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+
+/* Pagination section   */
+.All-products .pagination li a{
+    color: orchid;
+    font-weight: 500;
+   
+}
+
+.All-products .pagination .page-item:hover a{
+    background-color: orange;
+    color: white;
+    font-weight: 900;
+} 
+

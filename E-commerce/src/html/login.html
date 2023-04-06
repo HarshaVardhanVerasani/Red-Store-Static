@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to RedStore</title>
+        <!-------------------Boot Strap.min.css file------------------------------------------------------------>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!-------------------Google fonts------------------------------------------------------------------------>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+        <!-------------------home.css file---------------------------------------------------------------------------------->
+        <link rel="stylesheet" href="../css/home.css">
+        <!-------------------login.css file-------------------------------------->
+        <link rel="stylesheet" href="../css/login.css">
+        <!-------------------Font Awesome CDN------------------------------------------------------------------------>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="headerlogin">
+        <div class="container">
+            <div class="row mb-6">
+                <div class="col text-center">
+                    <a href="../html/index.html">
+                    <img src="../Material/images/logo-white.png" alt="cheer up" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-tab-pane" type="button" role="tab" aria-controls="login-tab-pane" aria-selected="true">Login</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="sign-up-tab" data-bs-toggle="tab" data-bs-target="#sign-up-tab-pane" type="button" role="tab" aria-controls="sing-up--tab-pane" aria-selected="false">Sign Up</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="login-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="login-section">
+                                <div class="user-name-section">
+                                    <input type="text" id="username" placeholder="email or mobile no.">
+                                </div>
+                                <div class="password-section">
+                                    <input type="password" id="password" placeholder="password">
+                                </div>
+                                <div class="login-button">
+                                    <button class="btn">LOGIN</button>
+                                </div>
+                                <div class="forget-section">
+                                    <p class="btn btn-outline-secondary"><a href="#">Forget Password</a></p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="tab-pane fade" id="sign-up-tab-pane" role="tabpanel" aria-labelledby="sign-up-tab" tabindex="0">
+                            <div class="login-section">
+                                <div class="user-name-section">
+                                    <input type="text" placeholder="User Name">
+                                </div>
+                                <div class="user-email-section">
+                                    <input type="email" id="username-email" placeholder="email">
+                                </div>
+                                <div class="password-section">
+                                    <input type="password" id="password" placeholder="password">
+                                </div>
+                                <div class="login-button">
+                                    <button class="btn">Register</button>
+                                </div>
+                                <div class="forget-section">
+                                    <p class="btn btn-outline-secondary"><a href="#">Forget Password</a></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

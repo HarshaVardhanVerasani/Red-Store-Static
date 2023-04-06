@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-------------------Boot Strap.min.css file------------------------------------------------------------>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-------------------Google fonts------------------------------------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <!-------------------home.css file---------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="../css/home.css">
+    <!------------------cart.css file--------------------------------------------------------->
+    <link rel="stylesheet" href="../css/cart.css">
+    <!-------------------Font Awesome CDN------------------------------------------------------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-------------Nav bar------------------->
+    <nav class="navbar navbar-expand-lg mb-6">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../html/index.html">
+            <img src="../Material/images/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="../html/index.html">Home</a>
+              <a class="nav-link" href="../html/productList.html">Products</a>
+              <a class="nav-link" href="#footer">About</a>
+              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link" href="../html/login.html">Account</a>
+              <a class="nav-link active" href="#">
+                Cart
+                <img src="../Material/images/cart.png" alt="cart-png" width="25px" height="25px">
+              </a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <section class="container cart">
+        <table class="table table-hover text-center">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Product</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Subtotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td class="flex">
+                    <div class="image">
+                        <img src="../Material/images/buy-1.jpg">
+                    </div>
+                    <div class="info">
+                        <h5>Red T-Shirt</h5>
+                        <h6>Price $ 50.00</h6>
+                        <button class="btn btn-danger">Remove</button>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$ 50.00</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td class="flex">
+                    <div class="image">
+                        <img src="../Material/images/buy-2.jpg">
+                    </div>
+                    <div class="info">
+                        <h5>Adidas shoes</h5>
+                        <h6>Price $ 100.00</h6>
+                        <button class="btn btn-danger" type="button">Remove</button>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$ 100.00</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td class="flex">
+                    <div class="image">
+                        <img src="../Material/images/buy-3.jpg">
+                    </div>
+                    <div class="info">
+                        <h5>Pants Tracker</h5>
+                        <h6>Price $ 80.00</h6>
+                        <button class="btn btn-danger">Remove</button>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$ 80.00</td>
+              </tr>
+            </tbody>
+        </table>
+        
+        <div class="row">
+            <div class="col grand-total-flex">
+                <table class="table grand-total">
+                    <tr>
+                        <th>Sub Total</th>
+                        <td>$ 280.00</td>
+                    </tr>
+                    <tr>
+                        <th>Tax</th>
+                        <td>$ 35.00</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <td>$ 315.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col">
+                <button class="btn btn-outline-success fw-bold" type="button"><a href="#">Proceed To Payment</a></button>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+<!-------------Footer-------------->
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col">
+                <h5 class="fw-bold">Download Our App</h5>
+                <p>Download App for Android and ios mobile phone.</p>
+                <a href="#">
+                    <img src="../Material/images/app-store.png" alt="app store">
+                </a>
+                <a href="#">
+                    <img src="../Material/images/play-store.png" alt="play store">
+                </a>
+            </div>
+            <div class="col">
+                <img src="../Material/images/logo-white.png" alt="logo">
+                <p>Our purpose is to sustainably make the pleasure and Benefits the sports accessible to many.</p>
+            </div>
+            <div class="col">
+                    <h5 class="fw-bold">Useful Links</h5>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Membership</li>
+                    </ul>      
+            </div>
+            <div class="col">
+                <h5 class="fw-bold">Follow Us at</h5>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Telegram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

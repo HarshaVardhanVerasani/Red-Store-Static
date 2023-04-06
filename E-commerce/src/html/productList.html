@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-------------------Boot Strap.min.css file------------------------------------------------------------>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-------------------Google fonts------------------------------------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <!-------------------home.css file---------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="../css/home.css">
+    <!------------------productList.css file---------------------------------------->
+    <link rel="stylesheet" href="../css/productList.css">
+    <!-------------------Font Awesome CDN------------------------------------------------------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-------------Nav bar------------------->
+    <nav class="navbar navbar-expand-lg mb-6">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../html/index.html">
+            <img src="../Material/images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="../html/index.html">Home</a>
+                <a class="nav-link active" href="#">Products</a>
+                <a class="nav-link" href="#footer">About</a>
+                <a class="nav-link" href="#footer">Contact</a>
+                <a class="nav-link" href="../html/login.html">Account</a>
+                <a class="nav-link" href="../html/cart.html">
+                <img src="../Material/images/cart.png" alt="cart-png" width="25px" height="25px">
+                </a>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-------------All products List-------------------------------------------->
+    <section class="All-products mb-6">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="fw-bold">All Products</h2>
+                </div>
+                <div class="col">
+                    <div class="btn-group">
+                        <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sort Items
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Popular</a></li>
+                          <li><a class="dropdown-item" href="#">Lowest Cost</a></li>
+                          <li><a class="dropdown-item" href="#">Highest cost</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-group mt-4 mb-5">
+                <a href="../html/singleProduct.html">
+                    <div class="card">
+                        <img src="../Material/images/buy-1.jpg" class="card-img-top" alt="buy-1">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Printed T-Shirts</h5>
+                            <p>
+                                <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                                <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                                <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                                <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                                <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                            </p>
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <p class="card-text">$ 150</p>
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-outline-info" type="button">Add to cart</button>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-2.jpg" class="card-img-top" alt="buy-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Shoes</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 200</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-3.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Brown Jeans</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 100</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-4.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast track watch</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 149</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-5.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast track watch</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 149</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-6.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast track watch</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 149</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-7.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast track watch</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 149</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-8.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast track watch</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 149</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-9.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast track watch</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 149</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-10.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast track watch</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 149</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-11.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast track watch</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 149</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+                <a href="../html/singleProduct.html">
+                <div class="card">
+                    <img src="../Material/images/product-12.jpg" class="card-img-top" alt="buy-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast track watch</h5>
+                        <p>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star" style="color: #fddf33;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #fddf33;"></i>
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <p class="card-text">$ 210</p>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-info" type="button">Add to cart</button>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+                </a>
+            </div> 
+        
+            <!-----------pagination-------------->
+            <div class="row">
+                <div class="col">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-end">
+                          <li class="page-item">
+                            <a class="page-link">Previous</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-------------Footer-------------->
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col">
+                <h5 class="fw-bold">Download Our App</h5>
+                <p>Download App for Android and ios mobile phone.</p>
+                <a href="#">
+                    <img src="../Material/images/app-store.png" alt="app store">
+                </a>
+                <a href="#">
+                    <img src="../Material/images/play-store.png" alt="play store">
+                </a>
+            </div>
+            <div class="col">
+                <img src="../Material/images/logo-white.png" alt="logo">
+                <p>Our purpose is to sustainably make the pleasure and Benefits the sports accessible to many.</p>
+            </div>
+            <div class="col">
+                    <h5 class="fw-bold">Useful Links</h5>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Membership</li>
+                    </ul>      
+            </div>
+            <div class="col">
+                <h5 class="fw-bold">Follow Us at</h5>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Telegram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

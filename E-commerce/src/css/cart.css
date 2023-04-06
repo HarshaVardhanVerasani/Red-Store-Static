@@ -1,0 +1,39 @@
+.cart .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart .table input {
+    width: 50%;
+} 
+
+.cart .grand-total-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart .grand-total {
+    width: 40%;
+}
+
+.cart .grand-total td {
+    text-align: end;
+}
+
+@media only screen and (max-width:450px) {
+    .cart .grand-total {
+        width: 100%;
+    }
+    .cart .flex .image img {
+        width: 100px;
+    }
+
+    .cart .flex .info{
+        margin-top: 10px;
+    }
+    .cart .flex h5 {
+        display: none;
+    }
+}
